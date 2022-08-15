@@ -11,7 +11,7 @@ class ImageWidgetDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: gWidth,
-      height: gHeight / 1.8,
+      height: gHeight / 3.4,
       child: Hero(
         tag: _cardController.currentIndex.value,
         child: Container(

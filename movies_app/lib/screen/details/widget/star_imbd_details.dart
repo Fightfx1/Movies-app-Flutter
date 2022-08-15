@@ -10,7 +10,7 @@ class MovieInfoIconDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      top: 280,
+      top: 200,
       left: 10,
       child: FadeInDown(
         delay: Duration(milliseconds: 500),

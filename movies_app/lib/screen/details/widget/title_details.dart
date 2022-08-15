@@ -11,11 +11,9 @@ class TitleTextDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      top: 190,
+      top: 280,
       left: 10,
-      child: FadeInDown(
-        delay: Duration(milliseconds: 400),
-        child: Container(
+      child: Container(
           width: gWidth / 1.2,
           height: gHeight / 9,
           child: Text(
@@ -24,10 +22,10 @@ class TitleTextDetails extends StatelessWidget {
                 .title,
             softWrap: true,
             style: TextStyle(
-                fontSize: 35, color: cardColor, fontWeight: FontWeight.bold),
+                fontSize: 28, fontWeight: FontWeight.bold
+            ),
           ),
         ),
-      ),
     );
   }
 }

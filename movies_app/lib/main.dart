@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       initialBinding: MyBindings(),
       title: 'Movies App',
       debugShowCheckedModeBanner: false,
-      home: MoviesScreen(),
+      home: MoviesScreen()
     );
   }
 }
